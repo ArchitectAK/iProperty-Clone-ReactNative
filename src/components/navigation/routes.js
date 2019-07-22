@@ -40,7 +40,7 @@ const TabStack = createBottomTabNavigator({
     screen: SavedNavigator,
     navigationOptions: {
       title: "Saved",
-      tabBarIcon: <Icon name="bookmark" size={25} />
+      tabBarIcon: <Icon name="bookmark" size={24} />
     }
   },
 

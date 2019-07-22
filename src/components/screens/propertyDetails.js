@@ -35,7 +35,7 @@ class propertyDetails extends Component {
 
     featchSearchResult = async () => {
 
-        featchNews('https://gist.githubusercontent.com/AnkitDroidGit/5c784fb70122d81905b3531f21c60dba/raw/a99683457221c8bb4fd6c9d16f9b6fc6a33ed8a8/propertyDetails.json')
+        fetchData('https://gist.githubusercontent.com/AnkitDroidGit/5c784fb70122d81905b3531f21c60dba/raw/a99683457221c8bb4fd6c9d16f9b6fc6a33ed8a8/propertyDetails.json')
             .then((respone) => {
                 const result = respone.data
                 console.log(" RESPONSE Details: ", result)

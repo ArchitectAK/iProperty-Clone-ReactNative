@@ -33,7 +33,7 @@ class searchResults extends Component {
 
   featchSearchResult = async () => {
 
-    featchNews('https://gist.githubusercontent.com/AnkitDroidGit/24db2844429e6a90f1f8f889b6efe987/raw/b5cce14c7e1486129e3a0a35e852cdef0e6e6f25/searchResult.json')
+    fetchData('https://gist.githubusercontent.com/AnkitDroidGit/24db2844429e6a90f1f8f889b6efe987/raw/b5cce14c7e1486129e3a0a35e852cdef0e6e6f25/searchResult.json')
       .then((respone) => {
         const result = respone.data
         console.log(" RESPONSE RECEIVED: ", result)

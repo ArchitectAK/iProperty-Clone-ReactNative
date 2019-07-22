@@ -30,7 +30,7 @@ class homeScreen extends Component {
 
         console.log('Featch News')
 
-        featchNews('https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=8e90af43505b4e5c998b731f94bda1bb')
+        fetchData('https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=8e90af43505b4e5c998b731f94bda1bb')
             .then((respone) => {
                 const result = respone.data
                 console.log(" RESPONSE RECEIVED: ", result)
