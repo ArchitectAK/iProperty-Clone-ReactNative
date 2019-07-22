@@ -11,7 +11,7 @@ import {
     StyleSheet,
     ShadowRoot
 } from 'react-native';
-import { featchNews } from "../../services/index";
+import { fetchData } from "../../services/index";
 import styles from '../styles/homeSearchStyle'
 
 

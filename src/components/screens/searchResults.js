@@ -8,7 +8,7 @@ import {
   TouchableOpacity,
   Text
 } from 'react-native';
-import { featchNews } from "../../services/index";
+import { fetchData } from "../../services/index";
 import homeStyle from '../styles/homeSearchStyle'
 
 class searchResults extends Component {

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { View, Image, Text, FlatList, TouchableOpacity, ActivityIndicator } from 'react-native';
-import { featchNews } from "../../services/index";
+import { fetchData } from "../../services/index";
 import Style from '../styles/homeSearchStyle'
 
 
